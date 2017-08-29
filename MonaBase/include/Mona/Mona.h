@@ -53,11 +53,11 @@ This file is a part of Mona.
 //
 #if defined(_MSC_VER)
 	#if defined(_DEBUG)
-		#pragma comment(lib, "libeay32MTd.lib")
-		#pragma comment(lib, "ssleay32MTd.lib")
+		//#pragma comment(lib, "libeay32MTd.lib")
+		//#pragma comment(lib, "ssleay32MTd.lib")
 	#else
-		#pragma comment(lib, "libeay32MT.lib")
-		#pragma comment(lib, "ssleay32MT.lib")
+		//#pragma comment(lib, "libeay32MT.lib")
+		//#pragma comment(lib, "ssleay32MT.lib")
 	#endif
 #endif
 
